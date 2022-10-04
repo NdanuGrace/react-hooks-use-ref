@@ -36,7 +36,7 @@ function Ticker() {
   return (
     <div>
       <h1>TickerChart</h1>
-      <canvas ref={canvasRef} width={600} height={400} />
+      <canvas ref={canvasRef} width={600} height={410} />
       <h2 style={{ color: color }}>Price: ${price.value}</h2>
     </div>
   );
